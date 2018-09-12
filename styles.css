@@ -1,12 +1,14 @@
 
 /* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600');
+
 body {
     background-color: pink;
-
+    text-align: center;
 }
 
 h1 {
-    font-family: verdana;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 50px;
     color: white;
     text-align: center;
@@ -16,11 +18,6 @@ h1 {
 p {
     font-family: verdana;
     font-size: 20px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
-
 }
 table, th, td {
    border: 5px solid hotpink;
@@ -33,16 +30,16 @@ table, th, td {
 
 }
 a {
-    color: hotpink;
+    color: black;
 }
 /* unvisited link */
 a:link {
-color: hotpink;
+color: white;
 }
 
 /* visited link */
 a:visited {
-color: hotpink;
+color: white;
 }
 
 /* mouse over link */
@@ -80,8 +77,8 @@ div.desc {
   height: 200px;
   color: hotpink;
   font: times;
-  font-size: 20px;
-  padding: 20px;
+  font-size: 15px;
+  padding: 10px;
   }
 
 .charlotte {
@@ -89,14 +86,95 @@ div.desc {
     height: 300px;
     color: hotpink;
     font: times;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 200px;
-    margin-left: 200px;
-    align: center;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
 
     }
+    .charlotte2 {
+      width: 200px;
+      height: auto;
+      display: block;
+      margin: auto;
+    }
+    .charlotte3 {
+      text-align: center;
+    }
+    .contact {
+      text-align: center;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: hotpink;
+  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+      background-color: pink;
+  }
+footer {
+
+    bottom: 0;
+    width: 100%;
+    background-color: hotpink;
+    color: white;
+    text-align: center;
+    clear: both;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+#
