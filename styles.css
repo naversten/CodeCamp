@@ -82,8 +82,8 @@ div.desc {
   }
 
 .charlotte {
-    border: 5px solid hotpink;
-    height: 300px;
+    border: 15px solid hotpink;
+    height: 330px;
     color: hotpink;
     font: times;
     padding-left: 10px;
@@ -93,7 +93,7 @@ div.desc {
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
-    margin-left: 80px;
+    margin-left: 150px;
 
     }
     .charlotte2 {
@@ -104,19 +104,27 @@ div.desc {
     }
     .charlotte3 {
       text-align: center;
+
+    }
+    .charlotte4 {
+      position: fixed;
+
     }
     .contact {
       text-align: center;
     }
     ul {
+
       list-style-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
       background-color: hotpink;
+
   }
 
   li {
+
       float: left;
   }
 
@@ -148,6 +156,12 @@ footer {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 /* Create four equal columns that sits next to each other */
