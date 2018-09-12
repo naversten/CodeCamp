@@ -5,6 +5,7 @@
 body {
     background-color: pink;
     text-align: center;
+
 }
 
 h1 {
@@ -110,6 +111,12 @@ div.desc {
       position: fixed;
 
     }
+    .charlotte5 {
+      margin-left: 50px;
+      margin-right: 50px;
+
+    }
+
     .contact {
       text-align: center;
     }
